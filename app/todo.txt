@@ -1,0 +1,8 @@
+SIND NICHT NACH REIHEN FOLGE GEORDNET
+
+1. gallery
+2. Services
+3. Contact us page
+4. Hero sec "Art" images and font ändern
+5. Nav style ändern
+6. kunden bewertung in marquee style
