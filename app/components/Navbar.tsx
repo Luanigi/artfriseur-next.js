@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="ml-4 flex items-center space-x-4 p-2 rounded-lg bg-white/20 backdrop-blur-lg">
               <Link href={"/"} className="text-white nav-hover rounded-lg p-2">Home</Link>
               <Link href={"/gallery"} className="text-white nav-hover rounded-lg p-2">Gallerie</Link>
-              <Link href={"/services"} className="text-white nav-hover rounded-lg p-2">Services</Link>
+              <Link href={"#services"} className="text-white nav-hover rounded-lg p-2">Services</Link>
               <Link href={"/contact"} className="text-white nav-hover rounded-lg p-2">Contact</Link>
             </div>
           </div>

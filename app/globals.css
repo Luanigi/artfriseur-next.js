@@ -50,6 +50,11 @@ body {
   min-height: 100vh;
 }
 
+.services {
+  min-height: 100vh;
+  background-color: #111;
+}
+
 /* ~HOME~ */
 
 nav {
@@ -123,13 +128,8 @@ nav {
 }
 
 .scroll {
-  margin-top: 60px;
+  margin-top: 30px;
 }
-
-.arrowww {
-  margin-top: 10px;
-}
-
 
 /* FEATURES */
 
@@ -195,7 +195,8 @@ nav {
 .feature-icon {
   width: 50px;
   height: 50px;
-  padding: 5px;
+  padding: 2px;
+  font-size: 20px;
   line-height: 50px;
   border-radius: 8px;
   color: rgb(234, 179, 8);
@@ -205,6 +206,13 @@ nav {
 .feature-text p {
   padding: 0 20px;
   text-align: initial;
+}
+
+/* ~SERVICES~ */
+
+#services {
+  width: 100%;
+  padding: 70px 0;
 }
 
 
@@ -273,14 +281,14 @@ nav {
 
 @keyframes hoch-runter {
   0% {
-    transform: translateY(20px);
-  }
-
-  50% {
     transform: translateY(10px);
   }
 
+  50% {
+    transform: translateY(5px);
+  }
+
   100% {
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
 }

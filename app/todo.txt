@@ -1,8 +1,19 @@
 SIND NICHT NACH REIHEN FOLGE GEORDNET
 
-1. gallery
-2. Services
+1. Services
+2. gallery
 3. Contact us page
+
 4. Hero sec "Art" images and font ändern
 5. Nav style ändern
 6. kunden bewertung in marquee style
+7. services weiter machen
+8. AOS ANIM
+9. smooth scrolling
+
+links
+1. https://artfriseurtest.netlify.app/ ~ alte seite
+2. https://michalsnik.github.io/aos/ ~ ANIMATIONS
+3. https://tailwindcss.com/docs/ ~ style
+4. https://fontawesome.com/icons ~ icons
+5. https://vercel.com/ ~ website verwalten
