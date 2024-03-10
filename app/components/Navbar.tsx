@@ -23,16 +23,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 rounded-lg">
               <Link href={"/"} className="text-white"><Image src={Logo} className="w-32 h-80%" alt="Art Friseur" /></Link>
             </div>
           </div>
           <div className="hidden md:block">
-            <div className="ml-4 flex items-center space-x-4 p-2 rounded-lg bg-white/200 border-2 border-white backdrop-blur-lg oben">
-              <Link href={"/"} className="text-black dark:text-white nav-hover rounded-lg p-2">Home</Link>
+            <div className="ml-4 flex items-center space-x-4 p-2 rounded-lg bg-white/200 border-2 dark:border-white backdrop-blur-lg oben">
+              <Link href={"/"} className="text-white nav-hover rounded-lg p-2">Home</Link>
               <Link href={"/gallery"} className="text-white nav-hover rounded-lg p-2">Gallerie</Link>
-              <Link href={"#services"} className="text-white nav-hover rounded-lg p-2">Services</Link>
-              <Link href={"/contact"} className="text-white nav-hover rounded-lg p-2">Contact</Link>
+              <Link href={"/#services"} className="text-white nav-hover rounded-lg p-2">Services</Link>
+              <Link href={"/contact"} className="nav-hover rounded-lg p-2">Contact</Link>
               <ThemeToggle />
             </div>
           </div>

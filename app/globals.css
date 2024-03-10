@@ -47,14 +47,11 @@ body {
 
 /* ~SECTIONS~ */
 
-.blackgradient {
-  background: linear-gradient(rgba(0,0,0,0.5),#000000),url("./components/Images/background.gif");
-}
-
 .hero-sec {
+  background: linear-gradient(rgba(0,0,0,0.5),#000000),url("./components/Images/background.gif");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .testimonials {
@@ -63,8 +60,8 @@ body {
 }
 
 .services {
-  min-height: 100vh;
-  background-color: #111;
+  min-height: 100dvh;
+  @apply bg-yellow-500;
 }
 
 /* ~HOME~ */

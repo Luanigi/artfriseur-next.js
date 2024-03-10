@@ -26,14 +26,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="de">
+    <html lang="de" className="!scroll-smooth">
       <Head>
       <link
         href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
         rel="stylesheet"
       />
     </Head>
-      <body className={`${poppins.className} bg-slate-50 dark:bg-[#0d1117]`}>
+      <body className={`${poppins.className} bg-neutral-100 dark:bg-[#000] h-[100dvh]`}>
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         {children}
       </ThemeProvider>

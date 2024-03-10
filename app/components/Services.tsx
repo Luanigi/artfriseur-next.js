@@ -1,6 +1,6 @@
 function Services() {
   return (
-    <div id="services" className=" bg-yellow-500 text-black">
+    <div id="services" className="bg-yellow-500 text-black">
         <div className="title-text">
             <p className="text-white">SERVICES</p>
             <h1>Was wir anbieten!</h1>

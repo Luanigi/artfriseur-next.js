@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <main>
-      <div id="home" className="hero-sec blackgradient" >
+      <div id="home" className="hero-sec" >
         <Navbar />
         <HeroSec />
       </div>
