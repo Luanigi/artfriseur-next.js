@@ -3,6 +3,7 @@ import { Kaushan_Script } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Head from 'next/head';
+import { ThemeProvider } from "./theme-provider";
 
 const poppins = Poppins({ 
   subsets: ["latin"],
@@ -32,8 +33,10 @@ export default function RootLayout({
         rel="stylesheet"
       />
     </Head>
-      <body className={poppins.className}>
+      <body className={`${poppins.className} bg-slate-50 dark:bg-[#0d1117]`}>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         {children}
+      </ThemeProvider>
       </body>
     </html>
   );

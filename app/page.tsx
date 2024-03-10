@@ -5,7 +5,7 @@ import HeroSec from "./components/HeroSec";
 import Testimonials from "./components/Testimonials";
 import Services from "./components/Services";
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,9 +19,10 @@ export default function Home() {
        })
  }, [])
 
+
   return (
     <main>
-      <div className="hero-sec">
+      <div id="home" className="hero-sec blackgradient" >
         <Navbar />
         <HeroSec />
       </div>

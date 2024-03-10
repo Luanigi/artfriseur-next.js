@@ -17,7 +17,13 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --black-rgba: 0, 0, 0, 0.5;
+    --white-rgba: 255, 255, 255, 0.5;
   }
+}
+
+* {
+  @apply transition-colors duration-0
 }
 
 body {
@@ -35,12 +41,17 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  
 }
 
 /* ~SECTIONS~ */
 
-.hero-sec {
+.blackgradient {
   background: linear-gradient(rgba(0,0,0,0.5),#000000),url("./components/Images/background.gif");
+}
+
+.hero-sec {
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -48,6 +59,7 @@ body {
 
 .testimonials {
   min-height: 100vh;
+  @apply dark:bg-black dark:text-white text-black bg-neutral-100;
 }
 
 .services {
@@ -84,6 +96,14 @@ nav {
   left: 0; 
 }
 
+.unten button {
+  @apply text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white w-[100%]
+}
+
+.oben button {
+  @apply text-white nav-hover rounded-lg p-2
+}
+
 .hero-btn {
   margin: 70px auto 0;
 }
@@ -95,7 +115,7 @@ nav {
   margin: 0 10px;
   padding: 12px 0;
   color: #fff;
-  border: .5px solid #fff;
+  border: 1px solid #fff;
   position: relative;
   z-index: 1;
   transition: color .5s;
@@ -238,6 +258,9 @@ nav {
   .features-img Image {
       width: 100%; 
    }
+  .scroll-arrow {
+    margin-bottom: 100px;
+  }
 }
 
 /* ~ANIMATIONS~ */
@@ -281,14 +304,14 @@ nav {
 
 @keyframes hoch-runter {
   0% {
-    transform: translateY(10px);
+    transform: translateY(-35px);
   }
 
   50% {
-    transform: translateY(5px);
+    transform: translateY(-30px);
   }
 
   100% {
-    transform: translateY(10px);
+    transform: translateY(-35px);
   }
 }

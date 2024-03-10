@@ -4,6 +4,9 @@ import Link from "next/link"
 import { useState } from "react"
 import Logo from "./Images/logo.png";
 import Image from 'next/image'
+import ThemeToggle from "./ThemeToggle";
+// import ThemeToggle from './ThemeToggle';
+
 
 export default function Navbar() {
 
@@ -16,7 +19,7 @@ export default function Navbar() {
 
   return (
     <>
-    <nav className="bg-transparent pt-4 fade-down">
+    <nav className="bg-transparent pt-4 fade-down dark:bg-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -25,11 +28,12 @@ export default function Navbar() {
             </div>
           </div>
           <div className="hidden md:block">
-            <div className="ml-4 flex items-center space-x-4 p-2 rounded-lg bg-white/20 backdrop-blur-lg">
-              <Link href={"/"} className="text-white nav-hover rounded-lg p-2">Home</Link>
+            <div className="ml-4 flex items-center space-x-4 p-2 rounded-lg bg-white/200 border-2 border-white backdrop-blur-lg oben">
+              <Link href={"/"} className="text-black dark:text-white nav-hover rounded-lg p-2">Home</Link>
               <Link href={"/gallery"} className="text-white nav-hover rounded-lg p-2">Gallerie</Link>
               <Link href={"#services"} className="text-white nav-hover rounded-lg p-2">Services</Link>
               <Link href={"/contact"} className="text-white nav-hover rounded-lg p-2">Contact</Link>
+              <ThemeToggle />
             </div>
           </div>
           <div className="md:hidden flex items-center">
@@ -68,11 +72,12 @@ export default function Navbar() {
       </div>
       {isClicked && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center p-10">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center p-10 unten">
               <Link href={"/"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">Home</Link>
               <Link href={"/gallery"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">gallerie</Link>
               <Link href={"/services"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">Services</Link>
               <Link href={"/contact"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">Contact</Link>
+              <ThemeToggle />
           </div>
         </div>
       )}
