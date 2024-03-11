@@ -9,7 +9,7 @@ import { Link } from "lucide-react"
 function Footer() {
 
     const handleClick = (targetUrl: string): void => {
-        window.location.href = targetUrl;
+        window.open(targetUrl, '_blank');
       };
 
   return (
