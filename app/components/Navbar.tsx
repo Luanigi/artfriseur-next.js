@@ -75,7 +75,7 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center p-10 unten">
               <Link href={"/"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">Home</Link>
               <Link href={"/gallery"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">gallerie</Link>
-              <Link href={"/services"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">Services</Link>
+              <Link href={"/#services"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">Services</Link>
               <Link href={"/contact"} className="text-white block hover:bg-white/20 backdrop-blur-lg rounded-lg p-2 border-solid border-2 border-white">Contact</Link>
               <ThemeToggle />
           </div>

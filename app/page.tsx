@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -31,6 +32,9 @@ export default function Home() {
       </div>
       <div className="services">
         <Services />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </main>
 
