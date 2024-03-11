@@ -292,7 +292,7 @@ nav {
       flex-basis: 100%;
   }
   .features-img Image {
-      width: 100%; 
+      width: 75%; 
    }
   .scroll-arrow {
     margin-bottom: 100px;
