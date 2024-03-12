@@ -2,13 +2,16 @@
 
 import Navbar from "./components/Navbar";
 import HeroSec from "./components/HeroSec";
-import Testimonials from "./components/Testimonials";
+import Features from "./components/Features";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonial";
+import Footer from "./components/Footer";
 
 import { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Footer from "./components/Footer";
+
+
 
 
 export default function Home() {
@@ -27,11 +30,14 @@ export default function Home() {
         <Navbar />
         <HeroSec />
       </div>
-      <div className="testimonials">
-        <Testimonials />
+      <div className="features">
+        <Features />
       </div>
       <div className="services">
         <Services />
+      </div>
+      <div className="testimonials">
+        <Testimonials />
       </div>
       <div className="footer">
         <Footer />
