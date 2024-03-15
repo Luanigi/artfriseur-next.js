@@ -28,13 +28,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
@@ -304,7 +298,34 @@ nav {
   .footer-img {
     top: 28%;
   }
+  .preisliste-heading {
+    font-size: 30px;
+  }
+
+  .heading-preis-btns {
+    @apply m-10
+  }
+  .preis-container {
+    @apply w-[80%]
+  }
+  .name {
+    @apply text-[10px]
+  }
+  .preis {
+    @apply text-[20px]
+  }
 }
+
+/* ~PREISLISTE~ */
+
+.dienstleistungen {
+  @apply w-[100%] bg-dark text-[20px] mt-10
+}
+
+.dienstleistung {
+  @apply flex place-content-between  
+}
+
 
 /* ~ANIMATIONS~ */
 
