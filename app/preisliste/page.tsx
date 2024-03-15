@@ -4,19 +4,27 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Preislistedienstleistung from "../components/Preislistedienstleistung";
 
-const dienstleistungeen = [
+type dienstleistung = {
+  dienstleistung: string;
+  preisKurz: string;
+  preisMittel: string;
+  preisLang: string;
+};
+
+const dienstleistungen: dienstleistung[] = [
   {
     dienstleistung: "Waschen Föhnen oder Legen",
     preisKurz: "19€",
     preisMittel: "22€",
     preisLang: "25€",
-  },{
+  },
+  {
     dienstleistung: "Waschen Schneiden Föhnen",
     preisKurz: "31€",
     preisMittel: "35€",
     preisLang: "38€",
   },
-  ,{
+  {
     dienstleistung: "Haarschnitt",
     preisKurz: "26€",
     preisMittel: "28€",
@@ -24,10 +32,7 @@ const dienstleistungeen = [
   },
 ];
 
-
-
-
-export default function page() {
+export default function Page() {
   return (
     <div id="preisListe" className="dark:bg-[#000] dark:text-white text-black bg-neutral-300 h-[100dvh]">
       <Navbar />
@@ -53,7 +58,7 @@ export default function page() {
 
           <hr />
 
-          {dienstleistungeen.map((dienstleistung, index) => (
+          {dienstleistungen.map((dienstleistung, index) => (
             <div key={index}>
               <Preislistedienstleistung dienstleistung={dienstleistung}/>
             </div>
@@ -67,6 +72,5 @@ export default function page() {
       </div>
       <Footer />
     </div>
-    
-  )
+  );
 }
