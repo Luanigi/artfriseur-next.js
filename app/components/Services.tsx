@@ -3,6 +3,8 @@ import ServicePic1 from "./Images/servicePic1.jpg"
 import ServicePic2 from "./Images/servicePic2.jpg"
 import ServicePic3 from "./Images/servicePic3.jpg"
 import ServicePic4 from "./Images/servicePic4.jpg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons/faUpRightFromSquare"
 
 function Services() {
   return (
@@ -68,7 +70,7 @@ function Services() {
 
             </div>
             <button data-aos="zoom-in">
-            <a href="/gallery">Mehr bilder sehen!</a>
+            <a href="/gallery">Mehr bilder sehen <FontAwesomeIcon icon={faUpRightFromSquare} /></a>
             </button>
         </div>
         {/* <h1 className="m-auto text-center text-[10vw]" data-aos="zoom-in">COMING SOON...</h1> */}
