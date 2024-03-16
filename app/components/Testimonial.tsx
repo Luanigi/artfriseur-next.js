@@ -36,7 +36,7 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <div id="testimonials" className="w-full h-fit py-20 relative dark:bg-black bg-neutral-300">
+    <div id="testimonial" className="w-full h-fit py-20 relative dark:bg-black bg-neutral-300">
       <div className="max-w-[1400px] w-[91%] mx-auto">
         <div className="text-center justify-center">
           <div className="text-yellow-500 px-2 text-xl font-extrabold uppercase rounded-md mb-5">

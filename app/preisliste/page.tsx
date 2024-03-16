@@ -56,7 +56,7 @@ export default function Page() {
             </div>
           </div>
 
-          <hr />
+          <hr className="w-[100%]" />
 
           {dienstleistungen.map((dienstleistung, index) => (
             <div key={index}>

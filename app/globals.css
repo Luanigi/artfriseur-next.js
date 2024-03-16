@@ -34,9 +34,7 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-
-  
+  }  
 }
 
 /* ~SECTIONS~ */
@@ -226,6 +224,73 @@ nav {
   padding: 70px 0;
 }
 
+.service-box {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.service-box button {
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  @apply ease-in bg-transparent dark:hover:bg-neutral-900 hover:bg-neutral-200 dark:text-black text-white font-semibold dark:hover:text-white hover:text-black py-2 px-4 border-2 dark:border-black border-white hover:border-transparent rounded
+}
+
+.single-service {
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.single-service img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(rgba(0,0,0,0.5), #000);
+  opacity: 1;
+  transition: 1s;
+}
+
+.single-service:hover .overlay {
+  opacity: 1;
+}
+
+.service-desc {
+  width: 80%;
+  position: absolute;
+  bottom: 30%;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 1s;
+  color: #fff;
+}
+
+hr {
+  background: #fff;
+  height: 2px;
+  border: 0;
+  margin: 15px auto;
+  width: 60%;
+}
+
+.service-desc p {
+  font-size: 14px;
+}
 
 /*footer*/
 
@@ -278,6 +343,12 @@ nav {
 
 /* ~MEDIA QUERIES~ */
 
+@media screen and (max-width: 1490px) {
+  .service-box {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 770px){
   .hero-btn h1 {
     font-size: 44px;
@@ -298,6 +369,22 @@ nav {
   .features-img Image {
       width: 75%; 
    }
+   .single-service{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .service-desc p {
+    font-size: 12px;
+  }
+  hr {
+    margin: 5px auto;
+  }
+  .single-service .service-desc {
+    bottom: 30% !important;
+  } 
+  .service-box {
+  width: 80%;
+  }
   .scroll-arrow {
     margin-bottom: 100px;
   }
@@ -311,7 +398,6 @@ nav {
   .preisliste-heading {
     font-size: 30px;
   }
-
   .heading-preis-btns {
     @apply m-10
   }
@@ -322,7 +408,10 @@ nav {
     @apply text-[15px]
   }
   .preis span {
-    @apply text-[13px]
+    @apply text-[15px] px-7 
+  }
+  .preis span:nth-child(3) {
+    @apply text-[15px] px-0 pl-7
   }
   .stufen h1 {
     @apply text-[20px]
