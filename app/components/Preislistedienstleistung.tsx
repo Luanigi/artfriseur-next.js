@@ -12,7 +12,7 @@ const Preislistedienstleistung = ({
 }) => {
   return (
     <div className="dienstleistungen  mb-10">
-        <div className="dienstleistung">
+        <div className="dienstleistung" data-aos="fade-up">
             <div className="name">
                 <span className="text-[20px]">{dienstleistung.dienstleistung}</span>
             </div>

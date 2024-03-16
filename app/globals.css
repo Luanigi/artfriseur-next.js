@@ -266,6 +266,16 @@ nav {
   text-align: center;
 }
 
+/* ~PREISLISTE~ */
+
+.dienstleistungen {
+  @apply w-[100%] bg-dark text-[20px] mt-10
+}
+
+.dienstleistung {
+  @apply flex place-content-between  
+}
+
 /* ~MEDIA QUERIES~ */
 
 @media screen and (max-width: 770px){
@@ -306,26 +316,18 @@ nav {
     @apply m-10
   }
   .preis-container {
-    @apply w-[80%]
+    @apply w-[90dvw]
   }
-  .name {
-    @apply text-[10px]
+  .name span{
+    @apply text-[15px]
   }
-  .preis {
+  .preis span {
+    @apply text-[13px]
+  }
+  .stufen h1 {
     @apply text-[20px]
   }
 }
-
-/* ~PREISLISTE~ */
-
-.dienstleistungen {
-  @apply w-[100%] bg-dark text-[20px] mt-10
-}
-
-.dienstleistung {
-  @apply flex place-content-between  
-}
-
 
 /* ~ANIMATIONS~ */
 

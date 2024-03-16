@@ -41,7 +41,7 @@ export default function Page() {
         <h1 className="text-center text-[50px] preisliste-heading">Preise für Damen und Herren</h1>
         <hr className="w-[50px] h-1 border rounded mt-5 m-auto dark:border-white border-black"/>
 
-        <div className="heading-preis-btns m-4 flex place-content-center flex-wrap gap-2">
+        <div className="heading-preis-btns m-4 flex place-content-center flex-wrap gap-2" data-aos="zoom-in">
             <button className="border rounded p-4 dark:hover:bg-[#111] hover:bg-neutral-200 transition duration-150 ease-out hover:ease-in" onClick={() => {window.location.href = "/preisliste#damen"}}>DAMEN</button>
             <button className="border rounded p-4 dark:hover:bg-[#111] hover:bg-neutral-200 transition duration-150 ease-out hover:ease-in" onClick={() => {window.location.href = "/preisliste#herren"}}>HERREN</button>
         </div>
