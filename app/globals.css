@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Poppins:wght@500&family=Ultra&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -130,10 +131,14 @@ nav {
 }
 
 .hero-header {
-  font-family: "Poppins", cursive;
-  font-weight: 400;
-  font-style: normal;
-  animation: fade-up 0.5s;
+  font-weight: 700;
+  font-style: italic;
+  animation: fade-up 0.5s;  
+}
+
+
+.header-con {
+  display: inline-block;
 }
 
 .scroll {
