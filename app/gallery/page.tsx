@@ -41,6 +41,11 @@ const images: ImageProps[] = [
       href: "https://www.instagram.com/p/CiZQoBJoaUl",
       imageSRC: "https://www.instagram.com/p/CiZQoBJoaUl/media/?size=l",
     },
+    {
+      id: 7,
+      href: "https://www.instagram.com/p/CZrfpMLoz7K/",
+      imageSRC: "https://www.instagram.com/p/CZrfpMLoz7K/media/?size=l",
+    },
 ];
   
   function Gallerie() {
@@ -56,6 +61,7 @@ const images: ImageProps[] = [
             ))}
           </div>
         </div>
+        <h1 className="text-center pb-10">Gehe zurück zur <a href="/" className="text-yellow-500 underline">Startseite</a></h1>
       </div>
     );
   }

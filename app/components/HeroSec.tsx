@@ -7,15 +7,15 @@ export default function HeroSec() {
     <div className="herotxt text-center">
 
       <div className="header-con">
-        <h1 className="text-[130px] pt-14 pr-5 hero-header text-white">
-          Art
+        <h1 className="text-[130px] pt-14 pr-5 hero-header text-yellow-500">
+          ART
         </h1>
       </div>
 
-      <p className="italic text-[20px] z-10 text-white">Wir lassen dich wie neu aussehen</p>
+      <p className="italic text-[20px] z-10 text-white">Entdecke dein neues Ich - Dein Style beginnt hier!</p>
       
       <div className="hero-btn" data-aos="zoom-in">
-        <a href="https://g.co/kgs/f1eVot2" target="_blank"><span></span>Unser laden!</a>
+        <a href="/gallery"><span></span>Unsere Werke</a>
         <a href="#testimonial"><span></span>Bewertungen</a>
         <a href="/preisliste"><span></span> Preis Liste</a>
       </div>

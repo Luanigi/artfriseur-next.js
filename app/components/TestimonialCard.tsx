@@ -12,7 +12,7 @@ const TestimonialCard = ({
   testimonial: TestimonialProps;
 }) => {
   return (
-    <div className="dark:bg-yellow-500  bg-white p-10 text-black dark:text-white flex flex-col text-center gap-5 border-2 dark:border-white border-black rounded-lg">
+    <div className="dark:bg-yellow-500  bg-white p-10 text-black dark:text-white cursor-pointer flex flex-col text-center gap-5 border-2 dark:border-white border-black rounded-lg">
       <div className="flex justify-center">
         <FontAwesomeIcon icon={faMessage} className="dark:bg-black bg-neutral-300 border-2 border-black text-yellow-500 p-1 text-3xl rounded-md" />
       </div>
