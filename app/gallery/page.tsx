@@ -51,6 +51,7 @@ const images: ImageProps[] = [
   function Gallerie() {
     return (
       <div id="gallerie" className="bg-neutral-500 dark:bg-black">
+        <span className="blur"></span>
         <Navbar />
         <h1 className="text-center text-[100px] mt-10">Art Gallerie</h1>
   

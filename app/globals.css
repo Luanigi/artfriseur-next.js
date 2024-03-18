@@ -134,8 +134,20 @@ nav {
   font-weight: 700;
   font-style: italic;
   animation: fade-up 0.5s;  
+  background: linear-gradient(to right, #FF9 20%, #FF0 40%, #FF0 60%, #FF1 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s linear infinite;
 }
 
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
 
 .header-con {
   display: inline-block;
@@ -474,4 +486,11 @@ hr {
   100% {
     transform: translateY(-35px);
   }
+}
+
+/* ~ EXTRAS ~ */
+.blur{
+  position: absolute;
+  box-shadow: 0 0 1000px 50px #fff;
+  z-index: 100;
 }
