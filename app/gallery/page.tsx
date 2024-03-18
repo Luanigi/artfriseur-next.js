@@ -12,19 +12,34 @@ interface ImageProps {
   
 const images: ImageProps[] = [
     {
-        id: 1,
-        href: "https://www.instagram.com/p/Czaf6nYIgwP/",
-        imageSRC: "https://www.instagram.com/p/Czaf6nYIgwP/media/?size=l",
+      id: 1,
+      href: "https://www.instagram.com/p/Czaf6nYIgwP/",
+      imageSRC: "https://www.instagram.com/p/Czaf6nYIgwP/media/?size=l",
     },
     {
-        id: 1,
-        href: "https://www.instagram.com/p/C3lLYXILND4/?img_index=1",
-        imageSRC: "https://bit.ly/3TCdNPp",
+      id: 2,
+      href: "https://www.instagram.com/p/C3lLYXILND4/",
+      imageSRC: "https://bit.ly/3TCdNPp",
     },
     {
-        id: 1,
-        href: "https://www.instagram.com/p/C4aPkVnIpwL",
-        imageSRC: "https://www.instagram.com/p/C4aPkVnIpwL/media/?size=l",
+      id: 3,
+      href: "https://www.instagram.com/p/C4aPkVnIpwL",
+      imageSRC: "https://www.instagram.com/p/C4aPkVnIpwL/media/?size=l",
+    },
+    {
+      id: 4,
+      href: "https://www.instagram.com/p/CqBHssEooJX",
+      imageSRC: "https://www.instagram.com/p/CqBHssEooJX/media/?size=l",
+    },
+    {
+      id: 5,
+      href: "https://www.instagram.com/p/CkQldxToJu_",
+      imageSRC: "https://www.instagram.com/p/CkQldxToJu_/media/?size=l",
+    },
+    {
+      id: 6,
+      href: "https://www.instagram.com/p/CiZQoBJoaUl",
+      imageSRC: "https://www.instagram.com/p/CiZQoBJoaUl/media/?size=l",
     },
 ];
   

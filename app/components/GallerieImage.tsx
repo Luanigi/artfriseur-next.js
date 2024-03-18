@@ -14,13 +14,11 @@ function cn(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
-
-
 const GallerieImage = ({images}: {images: ImageProps}) => {
     const [isLoading, setLoading] = useState(true)
 
     return (
-      <a href={images.href} className='group'>
+      <a href={images.href} target="_blank" className='group'>
           <div className="aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 w-full overflow-hidden rounded-lg bg-zinc-900">
               <Image 
                   src={images.imageSRC} 
