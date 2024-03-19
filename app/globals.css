@@ -4,8 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Poppins:wght@500&family=Ultra&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -36,6 +34,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }  
+}
+
+/* ~ EXTRAS ~ */
+.blur{
+  position: absolute;
+  box-shadow: 0 0 1000px 50px #fff;
+  z-index: 100;
 }
 
 /* ~SECTIONS~ */
@@ -433,6 +438,11 @@ hr {
   .stufen h1 {
     @apply text-[20px]
   }
+  .blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #fff;
+    z-index: 100;
+  }
 }
 
 /* ~ANIMATIONS~ */
@@ -486,11 +496,4 @@ hr {
   100% {
     transform: translateY(-35px);
   }
-}
-
-/* ~ EXTRAS ~ */
-.blur{
-  position: absolute;
-  box-shadow: 0 0 1000px 50px #fff;
-  z-index: 100;
 }

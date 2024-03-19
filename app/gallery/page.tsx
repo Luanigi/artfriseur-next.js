@@ -46,6 +46,11 @@ const images: ImageProps[] = [
       href: "https://www.instagram.com/p/CZrfpMLoz7K/",
       imageSRC: "https://www.instagram.com/p/CZrfpMLoz7K/media/?size=l",
     },
+    {
+      id: 8,
+      href: "https://www.instagram.com/p/Cr31rUdoZGu/",
+      imageSRC: "https://www.instagram.com/p/Cr31rUdoZGu/media/?size=l"
+    }
 ];
   
   function Gallerie() {
