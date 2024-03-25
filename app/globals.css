@@ -466,7 +466,7 @@ hr {
     @apply text-[20px]
   }
   .blur{
-    position: absolute;
+    position: relative;
     box-shadow: 0 0 1000px 100px #fff;
     -webkit-box-shadow: 0 0 1000px 100px #fff;
     z-index: 100;
