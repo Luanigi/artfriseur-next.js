@@ -60,8 +60,20 @@ const images: ImageProps[] = [
       id: 10,
       href: "https://www.instagram.com/p/C42shv9ICjf",
       imageSRC: "https://www.instagram.com/p/C42shv9ICjf/media/?size=l"
+    },
+    {
+      id: 11,
+      href: "https://www.instagram.com/p/CxF8lMrIjbs/",
+      imageSRC: "https://www.instagram.com/p/CxF8lMrIjbs/media/?size=l"
+    },
+    {
+      id: 12,
+      href: "https://www.instagram.com/p/CxF7PKzIYMc/",
+      imageSRC: "https://www.instagram.com/p/CxF7PKzIYMc/media/?size=l"
     }
 ];
+
+  let revImages = images.slice(0).reverse()
   
   function Gallerie() {
     return (
@@ -72,7 +84,7 @@ const images: ImageProps[] = [
   
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-            {images.map((image) => (
+            {revImages.map((image) => (
               <GallerieImage key={image.id} images={image} />
             ))}
           </div>
