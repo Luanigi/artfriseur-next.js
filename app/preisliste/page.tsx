@@ -187,7 +187,7 @@ const dienstleistungenHerren: dienstleistung[] = [
 
 export default function Page() {
   return (
-    <div id="preisListe" className="dark:bg-[#000] dark:text-white text-black bg-neutral-300 h-[100dvh]">
+    <div id="preisListe" className="dark:bg-black dark:text-white text-black bg-yellow-500 ">
       <Navbar />
       <div className="preis-container w-3/5 mt-20 m-auto">
         <h4 className="text-center tracking-widest">PREISLISTE</h4>

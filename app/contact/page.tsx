@@ -7,10 +7,10 @@ import Footer from "../components/Footer"
 
 function contact() {
   return (
-    <div id="contact" className="contct">
+    <div id="contact" className="contct dark:bg-black bg-yellow-500">
       <Navbar />
       <h1 className="text-center mt-14 text-[10vw] sm:text-[65px]">Kontaktiere Uns!</h1>
-      <p className="text-center text-yellow-500 text-[3vw] sm:text-[1em]">Du hast immernoch Fragen? Wir sind da um zu helfen!</p>
+      <p className="text-center dark:text-yellow-500 text-[3vw] sm:text-[1em]">Du hast immernoch Fragen? Wir sind da um zu helfen!</p>
 
       <div className="grid my-10 sm:w-[50%] w-[80%] m-auto gap-5 content-center">
       

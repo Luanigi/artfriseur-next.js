@@ -50,11 +50,12 @@ body {
   background-size: cover;
   background-position: center;
   height: 100dvh;
+  display: grid;
 }
 
 .features {
   min-height: 100vh;
-  @apply dark:bg-black dark:text-white text-black bg-neutral-100;
+  @apply dark:bg-black dark:text-white text-black bg-zinc-100;
 }
 
 .services {
@@ -152,10 +153,6 @@ nav {
   to {
     background-position: 200% center;
   }
-}
-
-.header-con {
-  display: inline-block;
 }
 
 .scroll {

@@ -77,7 +77,7 @@ const images: ImageProps[] = [
   
   function Gallerie() {
     return (
-      <div id="gallerie" className="bg-neutral-500 dark:bg-black">
+      <div id="gallerie" className="bg-yellow-500 text-black dark:text-white dark:bg-black">
         <span className="blur"></span>
         <Navbar />
         <h1 className="text-center text-[100px] mt-10">Art Gallerie</h1>
@@ -89,7 +89,7 @@ const images: ImageProps[] = [
             ))}
           </div>
         </div>
-        <h1 className="text-center pb-10">Gehe zurück zur <a href="/" className="text-yellow-500 underline">Startseite</a></h1>
+        <h1 className="text-center pb-10">Gehe zurück zur <a href="/" className="dark:text-yellow-500 text-white underline">Startseite</a></h1>
       </div>
     );
   }
