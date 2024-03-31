@@ -10,13 +10,13 @@ function contact() {
     <div id="contact" className="contct dark:bg-black bg-yellow-500">
       <Navbar />
       <h1 className="text-center mt-14 text-[10vw] sm:text-[65px]">Kontaktiere Uns!</h1>
-      <p className="text-center dark:text-yellow-500 text-[3vw] sm:text-[1em]">Du hast immernoch Fragen? Wir sind da um zu helfen!</p>
+      <p className="text-center dark:text-yellow-500 text-[3vw] sm:text-[1em] fadeUp">Du hast immernoch Fragen? Wir sind da um zu helfen!</p>
 
       <div className="grid my-10 sm:w-[50%] w-[80%] m-auto gap-5 content-center">
       
       {/* first card */}
 
-      <div className="card bg-zinc-900 border rounded-lg p-10 flex">
+      <div className="card dark:bg-zinc-900 bg-zinc-500 border rounded-lg p-10 flex">
         
         <div className="cardIcon">
             <FontAwesomeIcon icon={faPhoneFlip} className="rspsvIcon border-2 bg-zinc-800 border-white text-white p-2 text-3xl rounded-md" />
@@ -27,7 +27,7 @@ function contact() {
             <p>Du möchtest ein Termin bei uns Buchen? Rufe direkt im Salon an!</p>
         </div>
 
-        <button className="rounded ml-auto uppercase p-3 bg-white/20 hover:bg-white/40 text-white tracking-wide font-black">
+        <button className="rounded ml-auto uppercase p-3 dark:bg-white/20 dark:hover:bg-white/40 bg-white/5 hover:bg-white/20 border-2 dark:border-none text-white tracking-wide font-black">
             <a href="tel:+492091476264">Jetzt Anrufen!</a>
         </button>
 
@@ -35,7 +35,7 @@ function contact() {
 
       {/* second card */}
 
-      <div className="card bg-zinc-900 border rounded-lg p-10 flex">
+      <div className="card dark:bg-zinc-900 bg-zinc-500 border rounded-lg p-10 flex">
         
 
         <div className="cardIcon">
@@ -47,7 +47,7 @@ function contact() {
             <p>Auf Instagram sind wir zur jederzeit erreichbar!</p>
         </div>
 
-        <button className="rounded ml-auto uppercase p-3 bg-white/20 hover:bg-white/40 text-white tracking-wide font-black">
+        <button className="rounded ml-auto uppercase p-3 dark:bg-white/20 dark:hover:bg-white/40 bg-white/5 hover:bg-white/20 border-2 dark:border-none text-white tracking-wide font-black">
             <a href="https://www.instagram.com/artfriseur/" target="_blank">Schreibe uns!</a>
         </button>
 
@@ -55,7 +55,7 @@ function contact() {
 
       {/* third card */}
 
-      <div className="card bg-zinc-900 border rounded-lg p-10 flex flex-col">
+      <div className="card dark:bg-zinc-900 bg-zinc-500 border rounded-lg p-10 flex flex-col">
         
 
         <div className="cardIcon m-auto">

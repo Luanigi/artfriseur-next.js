@@ -14,16 +14,17 @@ export default function Features() {
             <div className="feature-box">
                 <div className="featuress">
                     <div data-aos="fade-up">
-                        <h1 id='features-h1'>Erfahrene Mitarbeiter</h1>
+                        <h1 id='features-h1'>Beratung und Service</h1>
                         <div className="features-desc">
                         <div className="border-2 border-solid border-yellow-500 rounded-lg">
                             <FontAwesomeIcon icon={faShieldHalved} className="feature-icon" />
                         </div>
                         <div className="feature-text">
                             <p>
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                               Quidem tempora adipisci veniam voluptas, tempore praesen
-                               tium molestias?
+                            Unser Team aus erfahrenen Friseuren nimmt sich Zeit für 
+                            deine individuellen Bedürfnisse und Wünsche. Wir beraten 
+                            dich umfassend und typgerecht, um den perfekten Look für 
+                            dich zu finden.
                             </p>
                         </div>
                         </div>
@@ -37,16 +38,18 @@ export default function Features() {
                         </div>
                         <div className="feature-text">
                             <p>
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                               Quidem tempora adipisci veniam voluptas, tempore praesen
-                               tium molestias?
+                            Wir verwenden ausschließlich hochwertige Produkte von 
+                            renommierten Marken, die dein Haar pflegen und schützen. 
+                            Unsere Dienstleistungen zeichnen sich durch Präzision, 
+                            Kreativität und Leidenschaft aus.
                             </p>
                         </div>
                         </div>
                     </div>
 
                     <div data-aos="fade-up">
-                        <h1 id='features-h1'>Preiswerte Preise</h1>
+                        <h1 id='features-h1'>
+Faire Preise für deine Schönheit</h1>
                         <div className="features-desc">
                         <div className="border-2 border-solid border-yellow-500 rounded-lg">
                             <FontAwesomeIcon icon={faEuroSign} className="feature-icon" />
@@ -54,9 +57,10 @@ export default function Features() {
                         
                         <div className="feature-text">
                             <p>
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                               Quidem tempora adipisci veniam voluptas, tempore praesen
-                               tium molestias?
+                            Wir sind der Meinung, dass jeder schöne Haare haben sollte, 
+                            ohne dafür ein Vermögen ausgeben zu müssen. Deshalb bieten 
+                            wir unsere Dienstleistungen zu fairen Preisen an, die für 
+                            jeden erschwinglich sind.
                             </p>
                         </div>
                         </div>

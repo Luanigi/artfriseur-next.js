@@ -191,7 +191,7 @@ export default function Page() {
       <Navbar />
       <div className="preis-container w-3/5 mt-20 m-auto">
         <h4 className="text-center tracking-widest">PREISLISTE</h4>
-        <h1 className="text-center text-[50px] preisliste-heading">Preise für Damen und Herren</h1>
+        <h1 className="text-center text-[50px] preisliste-heading fadeUp">Preise für Damen und Herren</h1>
         <hr className="w-[50px] h-1 border rounded mt-5 m-auto dark:border-white border-black"/>
 
         <div className="heading-preis-btns m-4 flex place-content-center flex-wrap gap-2" data-aos="zoom-in">
