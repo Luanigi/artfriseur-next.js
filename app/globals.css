@@ -480,6 +480,9 @@ hr {
   .card .restext {
     @apply p-10
   }
+  .herotxt {
+    @apply w-[90%] m-auto
+  }
 }
 
 
