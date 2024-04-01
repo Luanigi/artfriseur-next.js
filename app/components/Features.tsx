@@ -48,8 +48,7 @@ export default function Features() {
                     </div>
 
                     <div data-aos="fade-up">
-                        <h1 id='features-h1'>
-Faire Preise für deine Schönheit</h1>
+                        <h1 id='features-h1'>Faire Preise für deine Schönheit</h1>
                         <div className="features-desc">
                         <div className="border-2 border-solid border-yellow-500 rounded-lg">
                             <FontAwesomeIcon icon={faEuroSign} className="feature-icon" />

@@ -6,7 +6,7 @@ export default function HeroSec() {
   return (
     <div className="herotxt text-center">
       <div>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl pt-14 pb-10 hero-header font-bold" id='hero-hed'>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl pt-14 pb-10 hero-header fadeUp font-bold" id='hero-hed'>
           Gelsenkirchens Nr. <span className='pl-1'>1</span>
         </h1>
       </div>

@@ -140,19 +140,12 @@ nav {
   font-weight: 700;
   font-style: italic;
   animation: fade-up 0.5s;  
-  background: linear-gradient(to right, #FF9 20%, #FF0 40%, #FF0 60%, #FF1 80%);
-  background-size: 200% auto;
+  background: rgb(234, 179, 8);
+  background-size: 100% auto;
   color: #000;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 1s linear infinite;
-}
-
-@keyframes shine {
-  to {
-    background-position: 200% center;
-  }
 }
 
 .scroll {
