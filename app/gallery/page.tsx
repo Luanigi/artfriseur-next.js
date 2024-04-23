@@ -70,6 +70,26 @@ const images: ImageProps[] = [
       id: 12,
       href: "https://www.instagram.com/p/CxF7PKzIYMc/",
       imageSRC: "https://www.instagram.com/p/CxF7PKzIYMc/media/?size=l"
+    },
+    {
+      id: 13,
+      href: "https://www.instagram.com/p/C4TWGZBIKhA/",
+      imageSRC: "https://www.instagram.com/p/C4TWGZBIKhA/media/?size=l"
+    },
+    {
+      id: 14,
+      href: "https://www.instagram.com/p/C3dJzOCojsJ/",
+      imageSRC: "https://www.instagram.com/p/C3dJzOCojsJ/media/?size=l"
+    },
+    {
+      id: 15,
+      href: "https://www.instagram.com/p/C1aElzRo2gw/",
+      imageSRC: "https://www.instagram.com/p/C1aElzRo2gw/media/?size=l"
+    },
+    {
+      id: 16,
+      href: "https://www.instagram.com/p/CxyCrwZoppM/",
+      imageSRC: "https://www.instagram.com/p/CxyCrwZoppM/media/?size=l"
     }
 ];
 
@@ -80,7 +100,7 @@ const images: ImageProps[] = [
       <div id="gallerie" className="bg-yellow-500 text-black dark:text-white dark:bg-black">
         <span className="blur"></span>
         <Navbar />
-        <h1 className="text-center text-[100px] mt-10">Art Gallerie</h1>
+        <h1 className="text-center text-[100px] mt-10 fadeUp">Art Gallerie</h1>
   
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
