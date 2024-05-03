@@ -90,6 +90,11 @@ const images: ImageProps[] = [
       id: 16,
       href: "https://www.instagram.com/p/CxyCrwZoppM/",
       imageSRC: "https://www.instagram.com/p/CxyCrwZoppM/media/?size=l"
+    },
+    {
+      id: 17,
+      href: "https://www.instagram.com/p/C6RJE_fI4xe/",
+      imageSRC: "https://www.instagram.com/p/C6RJE_fI4xe/media/?size=l"
     }
 ];
 
