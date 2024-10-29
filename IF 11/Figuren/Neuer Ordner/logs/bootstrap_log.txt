@@ -1,0 +1,10 @@
+
+
+[2024-10-01 13:51:43] Startup - updater built May 20 2024 14:26:54
+[2024-10-01 13:51:43] Startup - Steam Client launched with: "M:\Mü\IF 11\Figuren\Neuer Ordner\steam.exe" 
+[2024-10-01 13:51:47] Shutdown
+
+
+[2024-10-08 13:25:20] Startup - updater built May 20 2024 14:26:54
+[2024-10-08 13:25:20] Startup - Steam Client launched with: "M:\Mü\IF 11\Figuren\Neuer Ordner\Steam.exe" -silent
+[2024-10-08 13:57:48] Shutdown

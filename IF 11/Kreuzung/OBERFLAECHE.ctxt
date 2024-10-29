@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=OBERFLAECHE()
+comment0.text=\r\n\ Baut\ die\ Bedienoberfl&auml;che\ auf\r\n
+comment1.params=g
+comment1.target=void\ paint(java.awt.Graphics)
+comment1.text=\r\n\ Zeichnet\ das\ Hintergrundmuster.\r\n
+comment2.params=
+comment2.target=java.awt.Frame\ FensterGeben()
+comment2.text=\r\n\ Gibt\ das\ Ausgabefenster\ zur&uuml;ck\ und\ erzeugt\ es\ gegebenenfalls.\r\n\ @return\ Ausgabefenster\r\n
+comment3.params=
+comment3.target=int\ RasterGroesseGeben()
+comment3.text=\r\n\ Gibt\ die\ Rastergr&ouml;&szlig;e\ zur&uuml;ck.\r\n\ @return\ Ausgabefenster\r\n
+comment4.params=
+comment4.target=int\ FensterBreiteGeben()
+comment4.text=\r\n\ Gibt\ die\ Breite\ des\ Fensters\ zur&uuml;ck.\r\n\ @return\ Fensterbreite\r\n
+comment5.params=
+comment5.target=int\ FensterHoeheGeben()
+comment5.text=\r\n\ Gibt\ die\ H&ouml;he\ des\ Fensters\ zur&uuml;ck.\r\n\ @return\ Fensterh&ouml;he\r\n
+comment6.params=
+comment6.target=float\ MeterAlsPixelGeben()
+comment6.text=\r\n\ Gibt\ die\ H&ouml;he\ des\ Fensters\ zur&uuml;ck.\r\n\ @return\ Fensterh&ouml;he\r\n
+numComments=7
